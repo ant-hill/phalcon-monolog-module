@@ -1,0 +1,30 @@
+{
+    "name": "ant-hill/phalcon-monolog-module",
+    "type": "phalcon-library",
+    "description":"Phalcon kernel module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Pyankov",
+            "email": "unit.1985@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "ant-hill/phalcon-kernel-module": "^0.2.1",
+        "monolog/monolog": "^1.19"
+    },
+    "require-dev": {
+        "sneakybobito/phalcon-stubs": "2.0.10",
+        "phpunit/phpunit": "^4.8"
+    }
+}

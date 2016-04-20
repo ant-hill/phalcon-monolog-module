@@ -1,7 +1,7 @@
 {
     "name": "ant-hill/phalcon-monolog-module",
     "type": "phalcon-library",
-    "description":"Phalcon kernel module",
+    "description":"Phalcon monolog module",
     "license": "MIT",
     "authors": [
         {
